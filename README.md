@@ -46,10 +46,6 @@ Ensure you have the following installed:
 # Clone the repository
 git clone [https://github.com/youruser/sentinel-ddos.git](https://github.com/LeonardoCides/anti-DDos)
 cd anti-DDos
-
-
-# Install Python dependencies
-pip install -r requirements.txt
-
-# Configure the Web Dashboard
-cp dashboard/config.sample.php dashboard/config.php
+sudo apt install python3.12-venv -y
+python3 -m venv venv
+python3 antiddos.py
