@@ -44,8 +44,9 @@ Ensure you have the following installed:
 ### 2. Installation
 ```bash
 # Clone the repository
-git clone [https://github.com/youruser/sentinel-ddos.git](https://github.com/youruser/sentinel-ddos.git)
-cd sentinel-ddos
+git clone [https://github.com/youruser/sentinel-ddos.git](https://github.com/LeonardoCides/anti-DDos)
+cd anti-DDos
+
 
 # Install Python dependencies
 pip install -r requirements.txt
